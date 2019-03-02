@@ -51,6 +51,8 @@ bool ATankPlayerController::GetSightRayHitLocation(FVector& OutHitLocation) cons
 	auto ScreenLocation = FVector2D(ViewportSizeX * CrosshairXLocation, ViewportSizeY * CrosshairYLocation);
 
 	// "De-project" the screen position of the crosshair to a world direction
+	FVector
+
 	// Line-trace along that look direction, and see what we hit (up to max range)
 	return true;
 }
